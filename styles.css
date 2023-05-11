@@ -2,6 +2,7 @@
 
     --color-background-primary : #FFFFFF;
     --color-background-secondary : #F3F5F6;
+    --color-background-ternary : #9E3040;
 
 
   }
@@ -19,7 +20,7 @@
   }
   
   html {
-    background-color: var(--color-background);
+    background-color: var(--color-background-ternary);
   }
   
   body {
