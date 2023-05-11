@@ -1,0 +1,28 @@
+:root {
+
+    --color-background-primary : #FFFFFF;
+    --color-background-secondary : #F3F5F6;
+
+
+  }
+  
+
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    min-height: 100%;
+  }
+  
+  html {
+    background-color: var(--color-background);
+  }
+  
+  body {
+   
+
+  }
