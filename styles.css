@@ -248,6 +248,7 @@ nav {
 .feat-prod {
   display: flex;
   margin-top: 5rem;
+  padding-left: 3rem;
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
@@ -361,15 +362,71 @@ nav {
 
 /*====*/
 
+/* Mid section starts here */
+
+.mid-right {
+  width: 749px;
+  height: 574px;
+  border-radius: 30px;
+  background-image: url("assets/Images/Feature-image.png");
+}
+
+.mid-section {
+  margin: 2rem;
+  padding-left: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mid-left {
+  display: flex;
+  margin-right: 3rem;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: var(--color-background-secondary);
+  border-radius: 30px;
+  width: 519px;
+  height: 482px;
+}
+
+.mid-left-title {
+  font-size: var(--font-size-mammoth);
+  font-weight: bolder;
+  padding-left: 3rem;
+}
+
+.mid-left-body {
+  font-size: var(--font-size-large);
+  font-family: var(--font-family-secondary);
+  padding-left: 3rem;
+  padding-right: 1.5rem;
+}
+
+.mid-btn-shop {
+  background-color: var(--color-background-ternary);
+  color: var(--color-background-primary);
+  margin-left: 3rem;
+}
+
+/* Mid section ended here */
+
+/*====*/
+
+/* Trending section starts here */
+
+/* Trending section ended here */
+
+/*====*/
+
 /* Testimonials section starts here */
 
-
-.testi-wrapper{
+.testi-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-}
 }
 
 .testi-title {
@@ -417,3 +474,66 @@ nav {
   font-family: var(--font-family-secondary);
   margin: 2rem 5rem 2rem 5rem;
 }
+
+/* Testimonials section ended here */
+
+/*====*/
+
+/* product gallery section starts here */
+
+.prod-gal-title {
+  display: flex;
+  font-size: var(--font-size-mammoth);
+  font-family: var(--font-family-primary);
+  font-weight: bolder;
+  justify-content: center;
+}
+
+.prod-gal {
+  display: flex;
+  margin: 5rem;
+}
+
+.prod-gal-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.prod-gal-right {
+  display: flex;
+  flex-direction: column;
+}
+.gal-1,
+.gal-2,
+.gal-4,
+.gal-5 {
+  width: 355px;
+  height: 240px;
+  margin: 1rem;
+  border-radius: 5px;
+}
+
+.gal-1 {
+  background-image: url(assets/Images/PG-1.png);
+}
+
+.gal-2 {
+  background-image: url(assets/Images/PG-2.png);
+}
+
+.gal-3 {
+  width: 510px;
+  height: 510px;
+  margin: 1rem;
+  border-radius: 5px;
+  background-image: url(assets/Images/PG-3.png);
+}
+
+.gal-4 {
+  background-image: url(assets/Images/PG-4.png);
+}
+
+.gal-5 {
+  background-image: url(assets/Images/PG-5.png);
+}
+/* product gallery section ended here */
