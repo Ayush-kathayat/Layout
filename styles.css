@@ -363,6 +363,15 @@ nav {
 
 /* Testimonials section starts here */
 
+
+.testi-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+}
+}
+
 .testi-title {
   display: flex;
   justify-content: center;
