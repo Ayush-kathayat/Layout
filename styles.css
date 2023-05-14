@@ -70,9 +70,7 @@ header {
   align-items: center;
 }
 
-
 .Sale-hdl {
-  
   font-size: var(--font-size-large);
   font-weight: bolder;
 }
@@ -276,7 +274,6 @@ nav {
   display: flex;
   align-items: center;
   width: 329px;
-
 }
 .prod-img-1 {
   width: 300px;
@@ -308,8 +305,8 @@ nav {
   margin: 1rem;
 }
 
-.prod-body{
-  margin : 1rem;
+.prod-body {
+  margin: 1rem;
 }
 
 .real-mrp {
@@ -326,25 +323,88 @@ nav {
 }
 
 .add-cart-btn {
-  
   width: 137px;
   height: 42px;
-  border-radius : 5px;
+  border-radius: 5px;
   background-color: var(--color-background-ternary);
   color: var(--color-background-primary);
-
 }
 
-.exp-more-prod{
-  display : flex;
-  flex-wrap : wrap;
+.exp-more-prod {
+  display: flex;
+  flex-wrap: wrap;
   /* justify-content: center; */
-
 }
 
-.exp-more-prod-img > p{
-  font-size: calc(1.5*var(--font-size-mammoth));
+.exp-more-prod-img > p {
+  font-size: calc(1.5 * var(--font-size-mammoth));
   font-weight: bolder;
   color: var(--color-background-primary);
-  margin : 4rem;
+  margin: 4rem;
+}
+
+.show-more-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.show-more-btn > button {
+  width: 137px;
+  height: 42px;
+  border-radius: 5px;
+  background-color: var(--color-background-ternary);
+  color: var(--color-background-primary);
+  margin: 4rem;
+}
+
+/* Products section ends here */
+
+/*====*/
+
+/* Testimonials section starts here */
+
+.testi-title {
+  display: flex;
+  justify-content: center;
+}
+
+.testi-title > p {
+  font-size: calc(2 * var(--font-size-xlarge));
+  font-weight: bolder;
+  font-family: var(--font-family-primary);
+}
+
+.testi-body-wrapper {
+  background-color: var(--color-background-ternary);
+  margin: 5rem;
+  border-radius: 2rem;
+  display: flex;
+  width: 1280px;
+  height: 314px;
+}
+
+.quote-1,
+.quote-2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.quote-2 {
+  justify-content: flex-end;
+}
+
+.testi-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-background-primary);
+}
+
+.testi-body > p {
+  font-size: var(--font-size-large);
+  font-family: var(--font-family-secondary);
+  margin: 2rem 5rem 2rem 5rem;
 }
