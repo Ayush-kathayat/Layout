@@ -537,3 +537,163 @@ nav {
   background-image: url(assets/Images/PG-5.png);
 }
 /* product gallery section ended here */
+
+/*====*/
+
+/* get in touch section starts here */
+
+.get-in-tch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.get-in-tch-title {
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-mammoth);
+  font-weight: bolder;
+}
+
+.get-in-tch-body {
+  font-family: var(--font-family-secondary);
+  font-size: var(--font-size-large);
+  margin-bottom: 4rem;
+}
+
+#input-get-in-tch {
+  width: 423px;
+  height: 48px;
+  outline: none;
+  margin: 1rem;
+}
+
+.get-in-tch-sec-part {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  flex-wrap: wrap;
+}
+
+.sbs-btn {
+  border-radius: 5px;
+  width: 162px;
+  height: 49px;
+  background-color: var(--color-background-ternary);
+  color: var(--color-background-primary);
+  font-size: var(--font-size-large);
+  font-weight: bold;
+}
+
+/* get in touch section ended here */
+
+/*====*/
+
+/* footer starts here */
+
+.footer {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-background-secondary);
+}
+
+.quick-links-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-right: 15rem;
+}
+
+.contact-us-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-right : 3rem;
+}
+
+.quick-links {
+  list-style-type: none;
+  margin-right: 3rem;
+}
+
+.q-link {
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-large);
+  margin: 0.7rem;
+}
+
+.contact-us-title,
+.we-accept-title,
+.quick-links-title {
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-xhuge);
+  font-weight: bolder;
+}
+
+.cu-link {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-large);
+}
+
+.we-accept-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* .we-accept-title,
+.copyright {
+  margin: 0.5rem;
+} */
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  width: 250px;
+  height: 200px;
+
+}
+
+.img-1 {
+  background-image: url(assets/Images/payment-1.png);
+}
+.img-2 {
+  background-image: url(assets/Images/payment-2.png);
+}
+.img-3 {
+  background-image: url(assets/Images/payment-3.png);
+}
+.img-4 {
+  background-image: url(assets/Images/payment-4.png);
+}
+.img-5 {
+  background-image: url(assets/Images/payment-5.png);
+}
+.img-6 {
+  background-image: url(assets/Images/payment-6.png);
+}
+.img-7 {
+  background-image: url(assets/Images/payment-7.png);
+}
+
+.wa-img {
+  width: 68.62px;
+  height: 40.84px;
+  margin: 1rem;
+  background-repeat: no-repeat;
+}
+/*  footer ended here */
+
+/* ==== */
