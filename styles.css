@@ -438,7 +438,8 @@ nav {
 .card-img {
   height: 410px;
   width: 410px;
-  border-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .card-1-img {
   background-image: url(assets/Images/Trending-1.png);
@@ -452,22 +453,21 @@ nav {
   background-image: url(assets/Images/Trending-3.png);
 }
 
-.card-body{
-
-  display : flex;
+.card-body {
+  display: flex;
   flex-direction: column;
-  border-radius : 10px;
+  border-radius: 10px;
   box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.1);
 }
 
 .card-body-title {
   font-size: var(--font-size-mammoth);
   font-family: var(--color-background-primary);
-  margin : 2rem;
+  margin: 2rem;
 }
 
 .card-body-content {
-  margin : 2rem;
+  margin: 2rem;
   font-size: var(--font-size-large);
   font-family: var(--font-family-secondary);
 }
