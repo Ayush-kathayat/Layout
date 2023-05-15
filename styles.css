@@ -470,6 +470,7 @@ nav {
   margin: 2rem;
   font-size: var(--font-size-large);
   font-family: var(--font-family-secondary);
+  padding : 7rem;
 }
 
 /* Trending section ended here */
