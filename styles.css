@@ -428,6 +428,7 @@ nav {
   justify-content: center;
   font-size: var(--font-size-mammoth);
   font-family: var(--color-background-primary);
+  font-weight: bolder;
 }
 
 .card {
