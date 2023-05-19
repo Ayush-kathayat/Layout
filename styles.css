@@ -421,6 +421,7 @@ nav {
   display: flex;
   margin: 5rem;
   margin-top: 2rem;
+  flex-wrap : wrap;
 }
 
 .trend-prod-title {
